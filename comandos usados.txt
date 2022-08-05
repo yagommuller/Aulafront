@@ -1,0 +1,5 @@
+git add .
+git -m
+git status
+git push -u origin master
+git remote add origin
