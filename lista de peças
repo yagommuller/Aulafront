@@ -1,1 +1,32 @@
 
+var listaDePecas = ["Disco de freio", "filtro de ar", "suspenção"];
+
+    if(listaDePecas.length < 2) {
+        // Limite de peças antigidos?
+        console.log("Limite de peças antigido?")
+    }
+    else {
+        console.log("Lista sem espaço, impossível cadastrar!");
+    }
+
+let peso = 280;
+    if(peso <50) {
+        console.log("A peça deve ter o peço maior que 50g")
+    }
+    else {
+        console.log("A peça possui peso adequado")
+    }
+
+let nomePeca = "pastilha de freio";
+    if(nomePeca.length > 3) 
+        console.log("cadrasto ok!")
+    } else if (nomePeca.length ==0) {
+        } 
+    else {
+
+        console.log("O nome da peça deve ter mais de 3 caracteres, digite um nome válido!  ")
+        break;
+    default:
+        console.log("Nome da peça ok, pode cadastrar!")
+}
+
