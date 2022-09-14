@@ -1,0 +1,12 @@
+let listaAlunos = ["Felipe", "Enzo", "Carlos", "vytor", "fabio", "joao", "Jorge", "Helen", "Marianne", "Fabiana"];
+console.log("Total de alunos na turma: " + listaAlunos.length)
+
+for (let index = 0; index < listaAlunos.length; index++) {
+    //const element = array[index];
+    console.log(index)
+    if (index == 0) {
+        console.log("zero localizado: "  + listaAlunos[index])
+    } else if (index % 2 != 0) {
+        console.log ("Número ímpar localizado: " + listaAlunos[index])
+    } else {console.log("Número par localizado: " + listaAlunos[index])}
+}
